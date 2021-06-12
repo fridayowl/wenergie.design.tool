@@ -10,7 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #131313;
+  background: #FFFFF;
 }
 
 .container{
@@ -19,10 +19,11 @@ body{
 
 .container .card{
   position: relative;
-  width: 320px;
-  height: 450px;
+  width: 160px;
+  height: 225px;
   background: #232323;
   border-radius: 20px;
+  margin: 10px;
   overflow: hidden;
 }
 
@@ -43,7 +44,7 @@ body{
 }
 
 .container .card:after{
-  content: 'Nike';
+  content: 'Wenergie';
   position: absolute;
   top: 30%;
   left: -20%;
@@ -125,7 +126,7 @@ body{
 .container .card .contentBx .size h3, .container .card .contentBx .color h3{
   color: #fff;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-right: 10px;
@@ -136,7 +137,7 @@ body{
   height: 26px;
   text-align: center;
   line-height: 26px;
-  font-size: 14px;
+  font-size: 6px;
   display: inline-block;
   color: #111;
   background: #fff;
