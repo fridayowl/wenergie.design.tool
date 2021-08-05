@@ -231,7 +231,6 @@ window.onload = function() {
         console.log("not exist");
         document.getElementById("progressbar").style.display = 'none'
         document.getElementById("enteryourdetails").style.display = 'block';
-       
 
       }
     });
@@ -263,7 +262,9 @@ window.onload = function() {
        } else {
 
 
-        alert("successfully");
+         //alert("successfully");
+         localStorage.setItem("USERID", USERID);
+         window.document.location = './dashboard.html';
 
        }
      }
