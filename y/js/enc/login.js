@@ -262,7 +262,9 @@ window.onload = function() {
        } else {
 
 
-        alert("successfully");
+         //alert("successfully");
+         localStorage.setItem("USERID", USERID);
+         window.document.location = './dashboard.html';
 
        }
      }
